@@ -1,0 +1,11 @@
+langchain==0.0.262
+openai==0.27.7
+python-dotenv==1.0.0
+gunicorn==21.2.0
+Flask==1.1.2
+Flask-Cors==3.0.10
+MarkupSafe==1.1.1
+itsdangerous==1.1.0
+Werkzeug==1.0.1
+Jinja2==2.11.3
+flask-log-request-id==0.10.1
