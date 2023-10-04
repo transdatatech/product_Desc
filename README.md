@@ -1,6 +1,6 @@
 # Description generation
 
-## Example of email message curl request
+## Example of curl request
 
 ```
 curl --location 'http://localhost:5000/api/description' \
