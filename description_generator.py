@@ -32,7 +32,7 @@ m = StructuredMessage   # optional, to improve readability
 load_dotenv()
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
-TEMPERATURE = float(os.getenv('TEMPERATURE', 0.3))
+TEMPERATURE = float(os.getenv('TEMPERATURE', 0.6))
 
 app = Flask(__name__)
 RequestID(app)
