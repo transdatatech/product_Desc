@@ -24,12 +24,10 @@ How you behave:
 
 {% set index = 1 %}
 {% if product %}
-{{ index }} Your task is to create an enticing product description based on the given characterstics: {{product}} and {{meta_info}}.
+{{ index }} Your task is to create an engaging and appealing product description based on the given characterstics: {{product}} and {{meta_info}}.
 {% endif %}
 
-Always start the description with "This {{product}}".
-
-When possible, incorporate the details from meta_info to highlight product's features and make it attractive to potential buyers.
+When possible, incorporate the details from meta_info: {{meta_info}} to highlight product's features and make it attractive to potential buyers.
 Remember, the description should not exceed 100 words.
 
 @complete_json_suffix_v2
